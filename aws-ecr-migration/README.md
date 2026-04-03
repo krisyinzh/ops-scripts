@@ -78,10 +78,10 @@ pip install boto3
 编辑 `migrate_ecr_cross_account.py`，填入你的 AWS 访问密钥和区域：
 
 ```python
-SOURCE_AK = "AKIAIOSFODNN7EXAMPLE"      # 源账号 Access Key
-SOURCE_SK = "wJalrXUtnFEMI/K7MDENG..."  # 源账号 Secret Key
-DEST_AK   = "AKIAIOSFODNN7EXAMPLE2"     # 目标账号 Access Key
-DEST_SK   = "wJalrXUtnFEMI/K7MDENG..."  # 目标账号 Secret Key
+SOURCE_AK = ""      # 源账号 Access Key
+SOURCE_SK = "..."  # 源账号 Secret Key
+DEST_AK   = ""     # 目标账号 Access Key
+DEST_SK   = "..."  # 目标账号 Secret Key
 REGION    = "ap-east-1"                 # AWS 区域
 ```
 
