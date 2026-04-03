@@ -78,8 +78,8 @@ pip install boto3 pandas openpyxl
 
 ```python
 # ========== 用户配置 ==========
-AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE"        # 你的 Access Key
-AWS_SECRET_KEY = "wJalrXUtnFEMI/K7MDENG..."    # 你的 Secret Key
+AWS_ACCESS_KEY = ""        # 你的 Access Key
+AWS_SECRET_KEY = ""    # 你的 Secret Key
 OUTPUT_FILE = "lightsail_instances.xlsx"       # 输出文件名
 
 # 要扫描的 Lightsail 区域
