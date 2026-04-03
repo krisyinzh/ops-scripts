@@ -1,0 +1,20 @@
+# Log files
+*.log
+unlock_log.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PowerShell
+.history/
+
+# Temporary files
+*.tmp
+temp/
