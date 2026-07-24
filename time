@@ -1,0 +1,1 @@
+curl -w "\n─ 网络延时明细 ─────────────────\nDNS 解析耗时  : %{time_namelookup}s\nTCP 握手耗时  : %{time_connect}s\nTLS 握手耗时  : %{time_appconnect}s\n首字节响应(TTFB): %{time_starttransfer}s\n----------------────────────────\n请求总耗时    : %{time_total}s\n" -o /dev/null -s https://api.binance.com/api/v3/ping
