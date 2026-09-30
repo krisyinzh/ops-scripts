@@ -1,0 +1,1 @@
+chmod +x delete_lightsail.sh && ./delete_lightsail.sh
